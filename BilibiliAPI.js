@@ -8,9 +8,7 @@
 // @grant        none
 // @license      MIT License
 // ==/UserScript==
-
 let csrf_token, visit_id;
-
 var BilibiliAPI = {
     setCommonArgs: (csrfToken = '', visitId = '') => {
         csrf_token = csrfToken;
